@@ -1,0 +1,56 @@
+/* Reset box sizing for consistency */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Base page styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  margin: 0;                 /* remove default browser margin */
+  background: #f7f7fb;       /* light background */
+  color: #222;               /* dark text */
+}
+
+/* Header styling */
+.site-header {
+  background: #e9f2ff;       /* light blue background */
+  border-bottom: 4px solid #a8c7ff; /* bottom border */
+  padding: 16px;             /* inside space */
+  margin-bottom: 24px;       /* space below header */
+  text-align: right;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 32px;
+  color: #0f4c81;
+}
+
+/* Navigation styling */
+.nav {
+  margin-top: 12px;
+}
+
+.nav__link {
+  text-decoration: none;
+  padding: 8px 14px;         /* padding inside links */
+  margin: 0 6px;             /* space between links */
+  border: 2px solid #a8c7ff; /* border around each link */
+  border-radius: 6px;
+  background: #ffffff;
+  color: #0f4c81;
+  font-size: 16px;
+}
+
+.nav__link:hover {
+  background: #eef5ff;
+}
+
+/* Main content container */
+.main-content {
+  max-width: 900px;
+  margin: 0 auto;            /* center the content */
+}
